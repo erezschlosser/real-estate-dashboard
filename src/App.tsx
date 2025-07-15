@@ -29,10 +29,13 @@ function App() {
 
   return (
     <>
-      <Navbar
+     <Navbar
         onPrev={handlePrev}
         onNext={handleNext}
-        buildingName={building.Name}
+        buildingName={buildings[index].Name}
+        buildings={buildings}
+        setIndex={setIndex}
+        currentIndex={index}
       />
 
       <IntroSection projectData={buildings[index]} buildingIndex={index} />

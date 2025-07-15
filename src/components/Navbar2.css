@@ -42,6 +42,7 @@
 
   .navbar-desktop .round-button:hover {
     background-color: #e7e6ff;
+    color: #4c3bff;
   }
   
   .navbar-desktop .nav-button.place {
@@ -115,10 +116,44 @@
 
   .navbar-desktop .settings:hover {
     background-color: #e7e6ff;
+    color: #4c3bff; /* 👈 Add this */
   }
 
-  .navbar-desktop svg:hover {
+  .dropdown-container {
+    position: relative;
+  }
+  
+  .dropdown-menu-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    padding: 6px 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 16px;
+    z-index: 10;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .dropdown-menu-content button {
+    background: none;
+    border: none;
+    padding: 10px 16px;
+    text-align: left;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .dropdown-menu-content button:hover {
+    background-color: #e1e0fe;
     color: #4c3bff;
   }
+  
+
+
   
   

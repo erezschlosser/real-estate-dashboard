@@ -1,12 +1,18 @@
 //import './NavBar.css';
 import './Navbar2.css';
+import { useState } from "react";
 
 
 interface NavbarDesktopProps {
   onPrev: () => void;
   onNext: () => void;
   buildingName: string;
+  buildings: any[];
+  setIndex: (index: number) => void;
+  currentIndex: number;
 }
+
+
 
 const Mid = () => (
   <div className="mid-nav">
@@ -24,32 +30,60 @@ const Left = ({
   onPrev,
   onNext,
   buildingName,
-}: Pick<NavbarDesktopProps, "onPrev" | "onNext" | "buildingName">) => (
-  <div className="left-nav">
-    <div className="flex-wrapper">
-      <button className="round-button">
-        {/* Hamburger */}
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
-        </svg>
-      </button>
-      <button className="round-button" onClick={onPrev}>
-        {/* Left arrow */}
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
-        </svg>
-      </button>
+  buildings,
+  setIndex,
+  currentIndex,
+}: Pick<NavbarDesktopProps, "onPrev" | "onNext" | "buildingName" | "buildings" | "setIndex" | "currentIndex">) => {
+  const [dropdownOpen, setDropdownOpen] = useState(false);
 
-      <button className="round-button" onClick={onNext}>
-        {/* Right arrow */}
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+  return (
+    <div className="left-nav">
+      <div className="flex-wrapper">
+        {/* Hamburger */}
+        <button className="round-button">
+          <svg>...</svg>
+        </button>
+
+        {/* Prev / Next Arrows */}
+        <button className="round-button" onClick={onPrev}>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+          </svg>
+        </button>
+        <button className="round-button" onClick={onNext}>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
             <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-        </svg>
-      </button>
-      <button className="nav-button place">{buildingName}</button>
+          </svg>
+        </button>
+
+        {/* Building Dropdown */}
+        <div
+          className="dropdown-container"
+          onMouseEnter={() => setDropdownOpen(true)}
+          onMouseLeave={() => setDropdownOpen(false)}
+        >
+          <button className="nav-button place" style={{ cursor: "pointer" }}>
+            {buildingName}
+          </button>
+
+          {dropdownOpen && (
+            <div className="dropdown-menu-content">
+              {buildings.map((b, i) =>
+                i !== currentIndex ? (
+                  <button key={i} onClick={() => setIndex(i)}>
+                    {b.Name}
+                  </button>
+                ) : null
+              )}
+            </div>
+          )}
+        </div>
+      </div>
     </div>
-  </div>
-);
+  );
+};
+
+
 
 const Right = () => (
   <div className="right-nav">
@@ -63,12 +97,27 @@ const Right = () => (
   </div>
 );
 
-const NavbarDesktop = ({ onPrev, onNext, buildingName }: NavbarDesktopProps) => (
+const NavbarDesktop = ({
+  onPrev,
+  onNext,
+  buildingName,
+  buildings,
+  setIndex,
+  currentIndex,
+}: NavbarDesktopProps) => (
   <div className="navbar-desktop">
     <Mid />
-    <Left onPrev={onPrev} onNext={onNext} buildingName={buildingName} />
+    <Left
+      onPrev={onPrev}
+      onNext={onNext}
+      buildingName={buildingName}
+      buildings={buildings}
+      setIndex={setIndex}
+      currentIndex={currentIndex}
+    />
     <Right />
   </div>
 );
+
 
 export default NavbarDesktop;
