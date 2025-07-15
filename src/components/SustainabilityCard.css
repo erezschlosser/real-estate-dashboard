@@ -1,0 +1,51 @@
+.card-grid {
+    position: relative;
+    display: grid;
+    height: 100%;
+    flex-flow: column;
+    grid-auto-columns: 1fr;
+    gap: 16px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.sustain-card {
+    position: relative;
+    display: flex;
+    overflow: visible;
+    flex-flow: column;
+    justify-content: space-between;
+    gap: 1rem;
+    border-radius: 0px;
+}
+
+.title-24 {
+    color: rgb(247, 247, 247);
+    font-size: 24px;
+}
+
+.sustain-image-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.sustain-image {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.arrow-div {
+    position: absolute;
+    inset: 0.5rem 0.5rem auto auto;
+    width: 48px;
+    height: 48px;
+    padding: 8px;
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 0.26);
+    backdrop-filter: blur(3px);
+}
+
+.sustain-card.not-stretch {
+    justify-content: flex-start;
+}

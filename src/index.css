@@ -1,0 +1,29 @@
+/* Simple reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+body {
+  font-family: 'inter', sans-serif;
+  background-color: #f7f7f7;
+  color: #242424;
+  line-height: 1.5;
+  margin: 0;
+  min-height: 100vh;
+  overscroll-behavior: none;
+}
+
+h1, h2 {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+
+

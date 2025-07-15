@@ -1,0 +1,121 @@
+.extra-payments-grid {
+    display: grid;
+    grid-auto-columns: 1fr;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+
+
+.extra-payments-top {
+    padding: 0px;
+    border-radius: 16px;
+    background-color: rgb(76, 59, 255);
+    grid-column: span 2;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.rate-title-wrapper {
+    display: flex;
+    height: 100%;
+    min-height: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 14px;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+}
+
+.small-title-white {
+    margin-right: 0px;
+    margin-left: 0px;
+    color: rgb(247, 247, 247);
+    font-weight: 600;
+}
+
+.white-48 {
+    margin-right: 0px;
+    margin-left: 0px;
+    color: rgb(247, 247, 247);
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 600;
+}
+
+.divide-white {
+    height: 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(247, 247, 247);
+}
+
+.payments {
+    padding: 0px;
+}
+
+.payments-item {
+    display: flex;
+    padding: 7px 14px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payments-item:not(:last-child) {
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.horiz-double {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 7px;
+}
+
+.dot-white {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: rgb(247, 247, 247);
+}
+
+.white-20 {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: rgb(247, 247, 247);
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.white-14 {
+    padding: 7px;
+    border-style: none;
+    border-width: 1px;
+    border-color: rgb(36, 36, 36);
+    border-radius: 8px;
+    background-color: rgba(196, 196, 196, 0);
+    color: rgb(247, 247, 247);
+}
+
+.rate-wrapper {
+    display: flex;
+    min-height: 100px;
+    padding: 14px;
+    flex-flow: column;
+    justify-content: space-between;
+    gap: 4rem;
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+}
+
+.rate-value {
+    color: rgb(36, 36, 36);
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+}
+

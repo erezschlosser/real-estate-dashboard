@@ -1,0 +1,15 @@
+[
+  { "tenant": "Alpha Corp", "rent": 12000 },
+  { "tenant": "Beta LLC", "rent": 9500 },
+  { "tenant": "Gamma Global", "rent": 11200 },
+  { "tenant": "NextPhase", "rent": 10300 },
+  { "tenant": "DeltaWorks", "rent": 8900 },
+  { "tenant": "Orion Technologies", "rent": 11750 },
+  { "tenant": "Skyline Ventures", "rent": 8700 },
+  { "tenant": "Vertex Group", "rent": 9400 },
+  { "tenant": "Cobalt Industries", "rent": 10100 },
+  { "tenant": "Nimbus Holdings", "rent": 9800 },
+  { "tenant": "QuantumEdge", "rent": 11100 },
+  { "tenant": "Echo Partners", "rent": 10700 }
+]
+

@@ -1,0 +1,23 @@
+{
+  "Operating": [
+    { "label": "Property Management", "amount": 18400 },
+    { "label": "Insurance", "amount": 11200 },
+    { "label": "Cleaning Services", "amount": 8900 },
+    { "label": "Utilities", "amount": 13700 }
+  ],
+  "RepairsMaintenance": [
+    { "label": "HVAC Repairs", "amount": 7400 },
+    { "label": "Plumbing", "amount": 6200 },
+    { "label": "Landscaping", "amount": 5100 }
+  ],
+  "Financial": [
+    { "label": "Interest Payments", "amount": 21000 },
+    { "label": "Loan Fees", "amount": 5300 },
+    { "label": "Property Taxes", "amount": 14700 }
+  ],
+  "Capital": [
+    { "label": "Roof Replacement", "amount": 18000 },
+    { "label": "Security Systems", "amount": 4200 },
+    { "label": "Contingency Reserves", "amount": 6000 }
+  ]
+}

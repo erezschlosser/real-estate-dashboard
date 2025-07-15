@@ -1,0 +1,43 @@
+.fees-wrapper {
+    display: flex;
+    overflow: hidden;
+    flex-flow: column;
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+}
+
+.fee-li-item {
+    display: flex;
+    padding: 7px 14px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(176, 176, 176);
+  }
+
+.number-and-dot {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 7px;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.fee-number {
+    display: inline-block;
+    color: rgb(36, 36, 36);
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 600;
+}
+
+.fee-type {
+    color: rgb(180, 180, 180);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+}

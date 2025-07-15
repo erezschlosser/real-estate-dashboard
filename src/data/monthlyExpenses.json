@@ -1,0 +1,27 @@
+[
+    { "month": "Jan 2023", "amount": 23500 },
+    { "month": "Feb 2023", "amount": 21700 },
+    { "month": "Mar 2023", "amount": 26400 },
+    { "month": "Apr 2023", "amount": 27800 },
+    { "month": "May 2023", "amount": 24300 },
+    { "month": "Jun 2023", "amount": 29100 },
+    { "month": "Jul 2023", "amount": 25000 },
+    { "month": "Aug 2023", "amount": 27000 },
+    { "month": "Sep 2023", "amount": 26000 },
+    { "month": "Oct 2023", "amount": 27600 },
+    { "month": "Nov 2023", "amount": 24100 },
+    { "month": "Dec 2023", "amount": 25300 },
+    { "month": "Jan 2024", "amount": 24900 },
+    { "month": "Feb 2024", "amount": 26500 },
+    { "month": "Mar 2024", "amount": 27500 },
+    { "month": "Apr 2024", "amount": 26800 },
+    { "month": "May 2024", "amount": 28200 },
+    { "month": "Jun 2024", "amount": 28900 },
+    { "month": "Jul 2024", "amount": 25500 },
+    { "month": "Aug 2024", "amount": 27000 },
+    { "month": "Sep 2024", "amount": 27600 },
+    { "month": "Oct 2024", "amount": 29000 },
+    { "month": "Nov 2024", "amount": 30500 },
+    { "month": "Dec 2024", "amount": 29800 }
+  ]
+  

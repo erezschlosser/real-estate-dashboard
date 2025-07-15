@@ -1,0 +1,15 @@
+{
+    "purchasePrice": 4200000,
+    "acquisitionFee": 126000,
+    "loanAmount": 2800000,
+    "renovationBudget": 450000,
+    "yearBuilt": 1984,
+    "landSizeSqm": 3800,
+    "grossYield": 6.2,
+    "netYield": 4.9,
+    "capRate": 5.2,
+    "projectDurationYears": 7,
+    "exitPriceAssumption": 5800000,
+    "occupancyRate": 92
+  }
+  

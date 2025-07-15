@@ -1,0 +1,101 @@
+{
+  "Name": "Allison Park, Cudahy, Wi",
+  "purchasePrice": 4200000,
+  "capRate": 5.1,
+  "netYield": 4.2,
+  "projectDurationYears": 7,
+  "testimonial": "This building was a turning point in our portfolio.",
+  "landSize": 4200,
+  "yearBuilt": 1992,
+  "occupancyRate": 92,
+  "Acquisition Fee": 140000,
+  "Loan": 150000,
+  "paramter3": 81300,
+  "rate": 7.765,
+  "term": 25,
+  "extraPayments": {
+      "Gas": 111,
+      "Snow Removal": 202,
+      "Security": 5000,
+      "Cleaning Services": 600
+  },
+  "rentRoll": [
+    {
+      "tenant": "Alpha Corp",
+      "rent": 145000
+    },
+    {
+      "tenant": "Gamma Global",
+      "rent": 189000
+    }
+  ],
+  "gpBreakdown": {
+    "managementFee": 2,
+    "acquisitionFee": 1.5
+  },
+  "expenses": {
+    "propertyTax": 52000,
+    "insurance": 13000
+  },
+  "increasePlan": {
+    "2025-2026": [
+      12000,
+      9500,
+      13000,
+      12800,
+      13500,
+      14000,
+      10500,
+      14200,
+      13800,
+      9600,
+      13900,
+      14400
+    ],
+    "2026-2027": [
+      14500,
+      15000,
+      15500,
+      15700,
+      11000,
+      16500,
+      16800,
+      17000,
+      17200,
+      14900,
+      11700,
+      11100
+    ],
+    "2027-2028": [
+      17500,
+      12800,
+      18000,
+      18200,
+      18500,
+      15000,
+      19500,
+      20000,
+      15800,
+      19600,
+      19400,
+      11200
+    ],
+    "2028-2029": [
+      19500,
+      15800,
+      20000,
+      13300,
+      20600,
+      21000,
+      12200,
+      21400,
+      21600,
+      21800,
+      22000,
+      22500
+    ]
+  }
+}
+  
+
+  

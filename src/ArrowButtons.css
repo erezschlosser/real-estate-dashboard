@@ -1,0 +1,24 @@
+.arrow-buttons {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    z-index: 1000;
+  }
+  
+  .arrow-button {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .arrow-button:hover {
+    background-color: #f0f0f0;
+  }
+  

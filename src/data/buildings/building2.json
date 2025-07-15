@@ -1,0 +1,102 @@
+{
+  "Name": "Ocean View, Santa Barbara, CA",
+  "purchasePrice": 5300000,
+  "capRate": 4.6,
+  "netYield": 3.8,
+  "projectDurationYears": 6,
+  "testimonial": "A highly strategic investment in a growing area.",
+  "landSize": 3800,
+  "yearBuilt": 1985,
+  "occupancyRate": 87,
+  "Acquisition Fee": 200000,
+  "Loan": 350000,
+  "paramter3": 100000,
+  "rate": 6.469,
+  "term": 15,
+  "extraPayments": {
+
+      "Amenities": 230
+    ,
+    
+      "Insurance": 1200
+    ,
+    
+      "Garden & Fitness": 9500
+  },
+  "rentRoll": [
+    {
+      "tenant": "Beta LLC",
+      "rent": 135000
+    },
+    {
+      "tenant": "Delta Group",
+      "rent": 178000
+    }
+  ],
+  "gpBreakdown": {
+    "managementFee": 2,
+    "acquisitionFee": 1.2
+  },
+  "expenses": {
+    "propertyTax": 48000,
+    "insurance": 15000
+  },
+  "increasePlan": {
+    "2025-2026": [
+      10000,
+      11000,
+      12000,
+      10800,
+      12500,
+      14000,
+      14500,
+      11200,
+      13800,
+      13600,
+      10900,
+      14400
+    ],
+    "2026-2027": [
+      12500,
+      15000,
+      13500,
+      15700,
+      13000,
+      16500,
+      19800,
+      20000,
+      21200,
+      15900,
+      16700,
+      17100
+    ],
+    "2027-2028": [
+      13500,
+      17800,
+      18000,
+      12200,
+      10500,
+      19000,
+      19500,
+      20000,
+      16800,
+      19600,
+      18400,
+      19200
+    ],
+    "2028-2029": [
+      19500,
+      19800,
+      10000,
+      13300,
+      20600,
+      21000,
+      13200,
+      15400,
+      16600,
+      17800,
+      22000,
+      22500
+    ]
+  }
+}

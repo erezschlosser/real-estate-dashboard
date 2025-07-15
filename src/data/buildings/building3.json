@@ -1,0 +1,108 @@
+{
+  "Name": "Harper Hills, Buffalo, NY",
+  "purchasePrice": 6100000,
+  "capRate": 5.8,
+  "netYield": 4.5,
+  "projectDurationYears": 8,
+  "testimonial": "Solid long-term asset with excellent performance.",
+  "landSize": 4700,
+  "yearBuilt": 2001,
+  "occupancyRate": 96,
+  "Acquisition Fee": 92000,
+  "Loan": 200000,
+  "paramter3": 22200,
+  "rate": 8.892,
+  "term": 18,
+  "extraPayments": {
+    
+      "Cleaning & Maintenance": 550
+    ,
+    
+      "Security": 2200
+    ,
+    
+      "Cafeteria": 11700
+    ,
+    
+      "Roof Cleaning": 1220
+    ,
+    
+      "Parking": 7780
+  },
+  "rentRoll": [
+    {
+      "tenant": "Omega Inc",
+      "rent": 165000
+    },
+    {
+      "tenant": "Sigma Partners",
+      "rent": 192000
+    }
+  ],
+  "gpBreakdown": {
+    "managementFee": 2,
+    "acquisitionFee": 1.8
+  },
+  "expenses": {
+    "propertyTax": 56000,
+    "insurance": 14500
+  },
+  "increasePlan": {
+    "2025-2026": [
+      12000,
+      12500,
+      10000,
+      12800,
+      13500,
+      10000,
+      14500,
+      14200,
+      11800,
+      13600,
+      13900,
+      10400
+    ],
+    "2026-2027": [
+      11500,
+      15000,
+      15500,
+      11700,
+      16000,
+      16500,
+      12800,
+      17000,
+      17200,
+      13900,
+      16700,
+      17100
+    ],
+    "2027-2028": [
+      17500,
+      17800,
+      14000,
+      18200,
+      18500,
+      15000,
+      19500,
+      16000,
+      19800,
+      19600,
+      19400,
+      17200
+    ],
+    "2028-2029": [
+      19500,
+      19800,
+      17000,
+      20300,
+      20600,
+      15000,
+      21200,
+      21400,
+      16600,
+      21800,
+      19000,
+      22500
+    ]
+  }
+}

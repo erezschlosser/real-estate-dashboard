@@ -1,0 +1,18 @@
+{
+    "equitySplit": [
+      { "role": "GP", "percent": 30 },
+      { "role": "LP", "percent": 70 }
+    ],
+    "preferredReturn": 8,
+    "gpCoInvestment": 150000,
+    "distributionTiers": [
+      { "tier": "Preferred Return", "returnToLP": "8%" },
+      { "tier": "Catch-Up", "returnToGP": "100% until GP hits 8%" },
+      { "tier": "Above Pref Split", "lp": 70, "gp": 30 }
+    ],
+    "exitProceedsSplit": {
+      "toLP": 4060000,
+      "toGP": 1740000
+    }
+  }
+  
