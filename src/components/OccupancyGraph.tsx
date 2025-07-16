@@ -28,6 +28,8 @@ const OccupancyGraph = ({ occupancyRate }: OccupancyGraphProps) => {
         xmlns="http://www.w3.org/2000/svg"
         version="1.1"
         viewBox="0 0 500 125"
+        height="250"
+        width="500"
       >
         {[...Array(100)].map((_, i) => {
           const x = 12.5 + (i % 20) * 25;

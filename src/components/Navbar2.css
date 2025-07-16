@@ -38,6 +38,8 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    position: relative;
+    z-index: 9999;
   }
 
   .navbar-desktop .round-button:hover {
@@ -152,6 +154,8 @@
     background-color: #e1e0fe;
     color: #4c3bff;
   }
+
+ 
   
 
 

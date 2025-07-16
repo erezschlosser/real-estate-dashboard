@@ -7,7 +7,8 @@
   "dev": "vite",
   "build": "vite build",
   "preview": "vite preview",
-  "deploy": "npm run build && gh-pages -d dist"
+  "deploy": "npm run build && git add -A docs && git commit -m 'update' || echo 'No changes to commit' && git push"
+
 },
   "dependencies": {
     "react": "^19.1.0",
