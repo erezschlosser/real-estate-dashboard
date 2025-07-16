@@ -53,7 +53,7 @@ const CapRate = ({ projectData }: { projectData: any }) => {
 
 const NetYield = ({ projectData }: { projectData: any }) => {
   return (
-    <div className="net-wrapper left-border">
+    <div className="net-wrapper">
       <div className="number-large-div">
         <p className="number-large">{projectData.netYield}</p>
         <p className="sub">%</p>

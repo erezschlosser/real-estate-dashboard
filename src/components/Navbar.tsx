@@ -1,6 +1,6 @@
 import useIsMobile from "../hooks/useIsMobile";
 import NavbarDesktop from "./NavbarDesktop";
-// import NavbarMobile from "./NavbarMobile";
+import NavbarMobile from "./NavbarMobile"; // ✅ make sure this file exists
 
 interface NavbarProps {
   onPrev: () => void;
@@ -21,7 +21,16 @@ const Navbar = ({
 }: NavbarProps) => {
   const isMobile = useIsMobile();
 
-  return isMobile ? null : (
+  return isMobile ? (
+    <NavbarMobile
+      onPrev={onPrev}
+      onNext={onNext}
+      buildingName={buildingName}
+      buildings={buildings}
+      setIndex={setIndex}
+      currentIndex={currentIndex}
+    />
+  ) : (
     <NavbarDesktop
       onPrev={onPrev}
       onNext={onNext}
@@ -34,4 +43,3 @@ const Navbar = ({
 };
 
 export default Navbar;
-

@@ -62,7 +62,7 @@ const Left = ({
           onMouseEnter={() => setDropdownOpen(true)}
           onMouseLeave={() => setDropdownOpen(false)}
         >
-          <button className="nav-button place" style={{ cursor: "pointer" }}>
+          <button className="nav-button place">
             {buildingName}
           </button>
 
@@ -105,7 +105,7 @@ const NavbarDesktop = ({
   setIndex,
   currentIndex,
 }: NavbarDesktopProps) => (
-  <div className="navbar-desktop">
+  <div className="navbar-desktop glass">
     <Mid />
     <Left
       onPrev={onPrev}

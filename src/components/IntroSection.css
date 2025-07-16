@@ -18,10 +18,9 @@
     max-width: 1200px;
     margin: auto;
     grid-auto-columns: 1fr;
-    gap: 0px;
+    gap: 2rem;
     grid-template-rows: auto;
-    border-radius: 16px;
-    background-color: rgb(255, 255, 255);
+    /*background-color: rgb(255, 255, 255);*/
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
@@ -37,6 +36,8 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(232, 232, 232);
+    border-radius: 16px;
+    overflow: hidden;
 }
 
 .image-main {
@@ -54,18 +55,21 @@
     flex: 0 0 auto;
     align-items: stretch;
     justify-content: space-between;
+    gap: 2rem;
 }
 
 .purchase-wrapper {
     display: flex;
     height: 100%;
-    padding: 0.5rem;
+    padding: 1rem;
     flex-flow: column;
     justify-content: flex-start;
     gap: 16px;
     border-style: none none solid;
     border-width: 1px 1px 1px;
-    border-color: #b0b0b0;
+    /*border-color: #b0b0b0;*/
+    background-color: #ffffff;
+    border-radius: 16px;
   }
   
   @media screen and (max-width: 800px) {
@@ -116,7 +120,7 @@
     flex-flow: column;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 16px;
+    gap: 7px;
   }
   
   @media screen and (max-width: 800px) {
@@ -158,16 +162,19 @@
     width: 100%;
     height: 100%;
     /*min-height: 200px;*/
+    gap: 2rem;
 }
 
 .net-wrapper {
     display: flex;
-    gap: 7px;
+    gap: 100px;
     width: 50%;
     height: 100%;
-    padding: 0.5rem;
+    padding: 1rem;
     flex-flow: column;
     justify-content: space-between;
+    border-radius: 16px;
+    background-color: #ffffff;
 }
 
   

@@ -6,6 +6,9 @@ interface NavbarMobileProps {
   onPrev: () => void;
   onNext: () => void;
   buildingName: string;
+  buildings: any[];
+  setIndex: (index: number) => void;
+  currentIndex: number;
 }
 
 const NavbarMobile = ({ onPrev, onNext, buildingName }: NavbarMobileProps) => {

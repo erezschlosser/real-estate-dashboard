@@ -51,7 +51,7 @@ const LandSize = ({
         <text className="number-large">{landSize.toLocaleString()}</text>
         <text className="small-title">Land Size</text>
       </div>
-      <div className="net-wrapper left-border nudge-left">
+      <div className="net-wrapper">
         <text className="number-large">{yearBuilt}</text>
         <text className="small-title">Year Built</text>
       </div>
