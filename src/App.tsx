@@ -12,6 +12,7 @@ import SecondSection from "./components/SecondSection";
 import IncreaseSection from "./components/IncreasePlan";
 import ThirdSection from "./components/ThirdSection";
 import Footer from "./components/Footer";
+import TextScrambleTest from "./components/TextScrambleTest";
 
 const buildings = [building1, building2, building3];
 
@@ -39,8 +40,6 @@ function App() {
       />
 
       <IntroSection projectData={buildings[index]} buildingIndex={index} />
-      <SecondSection projectData={building} />
-      <IncreaseSection increaseData={building.increasePlan} />
       <ThirdSection
         acquisitionFee={building["Acquisition Fee"]}
         loan={building["Loan"]}
@@ -49,6 +48,11 @@ function App() {
         rate={building.rate}
         term={building.term}
       />
+      
+      <IncreaseSection increaseData={building.increasePlan} />
+      <SecondSection projectData={building} />
+      
+
       <Footer />
     </>
   );

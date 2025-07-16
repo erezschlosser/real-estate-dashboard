@@ -1,7 +1,7 @@
 {
   "Name": "Ocean View, Santa Barbara, CA",
   "purchasePrice": 5300000,
-  "capRate": 4.6,
+  "capRate": 4.65,
   "netYield": 3.8,
   "projectDurationYears": 6,
   "testimonial": "A highly strategic investment in a growing area.",
@@ -9,8 +9,8 @@
   "yearBuilt": 1985,
   "occupancyRate": 87,
   "Acquisition Fee": 200000,
-  "Loan": 350000,
-  "paramter3": 100000,
+  "Loan": 200000,
+  "paramter3": 50000,
   "rate": 6.469,
   "term": 15,
   "extraPayments": {

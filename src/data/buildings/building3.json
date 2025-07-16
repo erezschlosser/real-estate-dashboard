@@ -1,7 +1,7 @@
 {
   "Name": "Harper Hills, Buffalo, NY",
   "purchasePrice": 6100000,
-  "capRate": 5.8,
+  "capRate": 5.83,
   "netYield": 4.5,
   "projectDurationYears": 8,
   "testimonial": "Solid long-term asset with excellent performance.",
@@ -9,7 +9,7 @@
   "yearBuilt": 2001,
   "occupancyRate": 96,
   "Acquisition Fee": 92000,
-  "Loan": 200000,
+  "Loan": 360000,
   "paramter3": 22200,
   "rate": 8.892,
   "term": 18,
